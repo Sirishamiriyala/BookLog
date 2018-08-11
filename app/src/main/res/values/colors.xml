@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="pink">#FFE25A7A</color>
+    <color name="black">#000</color>
+    <color name="background_widget_color">#09C</color>
+    <color name="background_wid">#09C</color>
+    <color name="text_color_widget">#ffffff</color>
+    <color name="color_gray">#c9c9c7</color>
+    <color name="blue">#5eb8c2</color>
+    <color name="dark_pink">#f4197c</color>
+</resources>

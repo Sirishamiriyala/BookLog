@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="layout_margin_widget">8dp</dimen>
+    <dimen name="text_size_widget">12sp</dimen>
+    <dimen name="margin_top_second">20dp</dimen>
+    <dimen name="margin_bottom_second">16dp</dimen>
+    <dimen name="padding_image">5dp</dimen>
+    <dimen name="image_view_height">250dp</dimen>
+    <dimen name="image_height">274dp</dimen>
+    <dimen name="margin_top_text">2dp</dimen>
+    <dimen name="text_size">30sp</dimen>
+    <dimen name="margin_top_linear">8dp</dimen>
+    <dimen name="text_size_layout">20sp</dimen>
+    <dimen name="margin_left1">8dp</dimen>
+    <dimen name="margin_top1">16dp</dimen>
+    <dimen name="text_size1">16sp</dimen>
+    <dimen name="margin_top_linear1">8dp</dimen>
+    <dimen name="text_size2">20sp</dimen>
+    <dimen name="marginft2">8dp</dimen>
+    <dimen name="margin_top3">16dp</dimen>
+    <dimen name="text_size_author">16sp</dimen>
+    <dimen name="margin_top_3">8dp</dimen>
+    <dimen name="text_size3">20sp</dimen>
+    <dimen name="margin_top_4">8dp</dimen>
+    <dimen name="margin_left4">16dp</dimen>
+    <dimen name="text_size_selflink">16sp</dimen>
+    <dimen name="min_height">40dp</dimen>
+    <dimen name="min_width">40dp</dimen>
+    <dimen name="pading_login">5dp</dimen>
+    <dimen name="margin_start_login">10dp</dimen>
+    <dimen name="margin_bottom_login">20dp</dimen>
+    <dimen name="margin_bottom1_login">20dp</dimen>
+    <dimen name="margin_Bottom2_login">10dp</dimen>
+
+</resources>

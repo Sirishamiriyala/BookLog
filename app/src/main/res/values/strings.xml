@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">BooKLog</string>
+    <string name="Python">Python</string>
+    <string name="Book_title">Book Title</string>
+    <string name="Published_date"> Published Date</string>
+    <string name="PageCount">Pagecount</string>
+    <string name="C">C</string>
+    <string name="Favourite">favourite</string>
+    <string name="Kind">Kind</string>
+    <string name="Thumbnail">Thumbnail</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="AuthorName">author</string>
+    <string name="SelfLink">selfLink</string>
+    <string name="CSE">CSE</string>
+    <string name="Java">java</string>
+    <string name="OOPs">OOPs</string>
+    <string name="Logic">Logic</string>
+    <string name="FieldTheory">FieldTheory</string>
+    <string name="AnalogCommunication">analog</string>
+    <string name="ECE">ECE</string>
+    <string name="MECH">MECH</string>
+    <string name="CAD">CAD</string>
+    <string name="CAM">CAM</string>
+    <string name="Robotics">Robotics</string>
+    <string name="MachineDarwing">machine</string>
+    <string name="SignalsAndSystems">SignalsAndSystems</string>
+    <string name="msg">No Favourites</string>
+    <string name="noFav">no favourites</string>
+    <string name="no_net">NO Network Connection</string>
+    <string name="no_nett">NO Network Connection</string>
+    <string name="published_date">Published Date</string>
+    <string name="authorname">AuthorName</string>
+    <string name="selflink">SelfLink</string>
+    <string name="cover_page">Image for TextBook cover Page</string>
+    <string name="image_for_recyclerview">Image for recyclerView</string>
+    <string name="add_to_fav">Add to Fav</string>
+    <string name="in_fav">In fav</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+    <string name="loading">loading</string>
+    <string name="string_for_widget">No favorites in ur app</string>
+
+</resources>

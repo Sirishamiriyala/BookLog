@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.sirisha.booklog.SecondActivity">
+
+    <ScrollView
+        android:id="@+id/id_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:contentDescription="@string/cover_page"
+                android:id="@+id/thumb"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/image_height"
+                android:scaleType="fitXY"
+                app:srcCompat="@mipmap/ic_launcher_round" />
+
+            <android.support.design.widget.CoordinatorLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/color_gray">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/margin_top_text"
+                    android:background="@color/blue"
+                    android:gravity="start"
+                    android:shadowColor="@color/colorPrimaryDark"
+                    android:text="@string/Book_title"
+                    android:textColor="@color/dark_pink"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="italic" />
+
+                <ToggleButton
+                    android:id="@+id/favorites"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="@string/add_to_fav"
+                    android:textOn="@string/in_fav"
+                    app:layout_anchor="@id/title"
+                    app:layout_anchorGravity="bottom|end" />
+            </android.support.design.widget.CoordinatorLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_top_linear"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="@string/published_date"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="@dimen/text_size_layout"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/published_date"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/margin_left1"
+                            android:layout_marginTop="@dimen/margin_top1"
+                            android:text="@string/Published_date"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/text_size1"
+                            android:layout_marginLeft="@dimen/margin_left1" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_top_linear1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="@string/authorname"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="@dimen/text_size2"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/authorName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/marginft2"
+                            android:layout_marginTop="@dimen/margin_top3"
+                            android:text="@string/AuthorName"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/text_size_author"
+                            android:layout_marginLeft="@dimen/marginft2" />
+
+                    </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_top_3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/selflink"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_size3"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/selfLink"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/margin_top_4"
+                        android:layout_marginTop="@dimen/margin_left4"
+                        android:text="@string/SelfLink"
+                        android:textAlignment="center"
+                        android:textSize="@dimen/text_size_selflink"
+                        android:autoLink="all"
+                        android:layout_marginLeft="@dimen/margin_top_4" />
+
+                </LinearLayout>
+                </LinearLayout>
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/ads"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adUnitId="ca-app-pub-6336523906622902/1584570296"
+            ads:adSize="BANNER"
+            android:layout_marginTop="@dimen/margin_top_second"
+            android:layout_marginBottom="@dimen/margin_bottom_second"
+            android:layout_marginStart="@dimen/margin_bottom_second"
+            android:layout_marginRight="@dimen/margin_bottom_second"
+            android:layout_marginEnd="@dimen/margin_bottom_second"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent" />
+            </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

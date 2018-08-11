@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:contest="com.example.sirisha.moviedbapp.MyAdapter">
+
+    <item
+        android:id="@+id/CSE_OR_IT"
+        android:title="@string/CSE"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/python"
+                android:title="@string/Python"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/c"
+                android:title="@string/C"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/java"
+                android:title="@string/Java"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/OOPs"
+                android:title="@string/OOPs"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/ECE"
+        android:title="@string/ECE"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/AnalogCommunication"
+                android:title="@string/AnalogCommunication"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/SignalsAndSystems"
+                android:title="@string/SignalsAndSystems"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/FieldTheory"
+                android:title="@string/FieldTheory"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/Logic_Design"
+                android:title="@string/Logic"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/MECH"
+        android:title="@string/MECH"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/CAD"
+                android:title="@string/CAD"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/CAM"
+                android:title="@string/CAM"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/Robotics"
+                android:title="@string/Robotics"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/MachineDrawing"
+                android:title="@string/MachineDarwing"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/favourites"
+        android:title="@string/Favourite"
+        app:showAsAction="never" />
+
+
+</menu>
